@@ -49,6 +49,7 @@ class Calculadora {
             //Se houver um erro na expressão, exibe a mensagem Erro
             this.valor = 'Erro'
         }
+        this.atualizarVisor()
     }
 
     //Método para atualizar o visor com o valor atual da calculadora 

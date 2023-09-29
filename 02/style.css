@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #38D0F2;
+}
+
+main {
+    text-align: center;
+}
+
+button {
+    width: 55px;
+    height: 40px;
+}
