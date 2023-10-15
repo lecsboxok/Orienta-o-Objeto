@@ -7,13 +7,63 @@
 
 body {
     background-color: #38D0F2;
+    display: flex;
+    justify-content: center;
 }
 
 main {
     text-align: center;
 }
 
+@font-face {
+    font-family: 'Kanit';
+    src: url(fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Gemunu';
+    src: url(fonts/GemunuLibre-VariableFont_wght.ttf);
+}
+
+#visor {
+    margin-bottom: 20px;
+    width: 230px;
+    height: 50px;
+    background-color: #6CD9D9;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px 10px;
+    font: 500 35px 'Gemunu', sans-serif;
+}
+
 button {
     width: 56px;
-    height: 40px;
+    height: 50px;
+    margin: 3px;
+    border-radius: 10px;
+    font: 400 25px 'Kanit', sans-serif;
+}
+
+.calculadora {
+    text-align: center;
+    padding: 50px 10px;
+    background-color: #303B40;
+    width: 320px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.teclado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.operacao {
+    background-color: #FFBD29;
+}
+
+.limpar {
+    background-color: #F28705;
 }
